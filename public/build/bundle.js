@@ -1855,7 +1855,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (1:0) <script>  import {   onMount  }
+    // (1:0) <script>   import {    onMount   }
     function create_catch_block(ctx) {
     	const block = {
     		c: noop,
@@ -1870,7 +1870,7 @@ var app = (function () {
     		block,
     		id: create_catch_block.name,
     		type: "catch",
-    		source: "(1:0) <script>  import {   onMount  }",
+    		source: "(1:0) <script>   import {    onMount   }",
     		ctx
     	});
 
@@ -2030,11 +2030,11 @@ var app = (function () {
     			td3 = element("td");
     			create_component(button.$$.fragment);
     			t6 = space();
-    			add_location(td0, file$2, 73, 6, 1450);
-    			add_location(td1, file$2, 74, 6, 1480);
-    			add_location(td2, file$2, 75, 6, 1511);
-    			add_location(td3, file$2, 76, 6, 1542);
-    			add_location(tr, file$2, 72, 5, 1439);
+    			add_location(td0, file$2, 73, 6, 1523);
+    			add_location(td1, file$2, 74, 6, 1554);
+    			add_location(td2, file$2, 75, 6, 1586);
+    			add_location(td3, file$2, 76, 6, 1618);
+    			add_location(tr, file$2, 72, 5, 1511);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -2176,21 +2176,21 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(th0, file$2, 57, 5, 1022);
-    			add_location(th1, file$2, 58, 5, 1041);
-    			add_location(th2, file$2, 59, 5, 1061);
-    			add_location(th3, file$2, 60, 5, 1081);
-    			add_location(tr0, file$2, 56, 4, 1012);
-    			add_location(thead, file$2, 55, 3, 1000);
-    			add_location(input0, file$2, 65, 9, 1149);
-    			add_location(td0, file$2, 65, 5, 1145);
-    			add_location(input1, file$2, 66, 9, 1202);
-    			add_location(td1, file$2, 66, 5, 1198);
-    			add_location(input2, file$2, 67, 9, 1256);
-    			add_location(td2, file$2, 67, 5, 1252);
-    			add_location(td3, file$2, 68, 5, 1306);
-    			add_location(tr1, file$2, 64, 4, 1135);
-    			add_location(tbody, file$2, 63, 3, 1123);
+    			add_location(th0, file$2, 57, 5, 1079);
+    			add_location(th1, file$2, 58, 5, 1099);
+    			add_location(th2, file$2, 59, 5, 1120);
+    			add_location(th3, file$2, 60, 5, 1141);
+    			add_location(tr0, file$2, 56, 4, 1068);
+    			add_location(thead, file$2, 55, 3, 1055);
+    			add_location(input0, file$2, 65, 9, 1214);
+    			add_location(td0, file$2, 65, 5, 1210);
+    			add_location(input1, file$2, 66, 9, 1268);
+    			add_location(td1, file$2, 66, 5, 1264);
+    			add_location(input2, file$2, 67, 9, 1323);
+    			add_location(td2, file$2, 67, 5, 1319);
+    			add_location(td3, file$2, 68, 5, 1374);
+    			add_location(tr1, file$2, 64, 4, 1199);
+    			add_location(tbody, file$2, 63, 3, 1186);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, thead, anchor);
@@ -2324,7 +2324,7 @@ var app = (function () {
     	return block;
     }
 
-    // (52:18)    Loading contacts...  {:then contacts}
+    // (52:18)     Loading contacts...   {:then contacts}
     function create_pending_block(ctx) {
     	let t;
 
@@ -2347,7 +2347,7 @@ var app = (function () {
     		block,
     		id: create_pending_block.name,
     		type: "pending",
-    		source: "(52:18)    Loading contacts...  {:then contacts}",
+    		source: "(52:18)     Loading contacts...   {:then contacts}",
     		ctx
     	});
 
@@ -2376,7 +2376,7 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			info.block.c();
-    			add_location(main, file$2, 49, 0, 911);
+    			add_location(main, file$2, 49, 0, 960);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2541,7 +2541,7 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			create_component(contactstable.$$.fragment);
-    			add_location(main, file$3, 4, 0, 73);
+    			add_location(main, file$3, 4, 0, 77);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

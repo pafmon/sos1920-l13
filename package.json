@@ -1,12 +1,12 @@
 {
-  "name": "sos1920-l09",
+  "name": "sos1920-l13",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "test" : "npx newman run tests/apiTests.json",
+    "test": "npx newman run tests/apiTests.json",
     "start": "node index"
   },
   "devDependencies": {
