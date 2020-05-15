@@ -17,7 +17,7 @@
 						"exec": [
 							"pm.test(\"API Working\", function () {",
 							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.length).to.eql(7);",
+							"    pm.expect(jsonData.length).to.eql(4);",
 							"});"
 						]
 					}
