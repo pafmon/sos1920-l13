@@ -1,0 +1,36 @@
+{
+	"variables": [],
+	"info": {
+		"name": "apitests",
+		"_postman_id": "5aa6e788-9f8b-23b2-b730-f15c20b02796",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9999/api/v1/contacts",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"API Working\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(7);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://localhost:9999/api/v1/contacts",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
